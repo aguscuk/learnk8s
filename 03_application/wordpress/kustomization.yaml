@@ -1,0 +1,9 @@
+secretGenerator:
+- name: mysql-host
+  literals:
+  - host=10.240.0.115
+- name: mysql-pass
+  literals:
+  - password=mypassword
+resources:
+  - 01_deploy.yaml
